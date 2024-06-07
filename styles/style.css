@@ -937,6 +937,13 @@ footer{
 }
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 @media only screen and (max-width: 540px){
+    html{
+        font-size: 80%;
+    }
+    section{
+        padding: 50px 3%;
+    }
+    
     .featured-name{
         font-size: 40px;
     }
