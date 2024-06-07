@@ -930,6 +930,10 @@ footer{
     .project-box{
         width: 80%;
     }
+    .fillter-buttons button{
+        padding: 10px;
+        font-size: .8rem;
+    }
 }
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 @media only screen and (max-width: 540px){
@@ -944,5 +948,13 @@ footer{
     }
     .input-field{
         width: 100%;
+    }
+    .fillter-buttons{
+        display: grid;
+        grid-gap: 1rem;
+    }
+    .fillter-buttons button{
+        width: 100%;
+        padding: 13px;
     }
 }
