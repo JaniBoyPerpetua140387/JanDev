@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>Pacific Trail Resort</title>
+    <link rel="stylesheet" href="../styles/main-style.css">
+
+</head>
+<body >
+    <div id="wrapper">
+    <header>
+        <h1 class="head">Pacific Trail Resort</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>&nbsp;&nbsp;
+        <a href="../Pages/Cottage.html">Cottages</a>&nbsp;&nbsp;
+        <a href="../Pages/Avtivities.html">Activities</a>&nbsp;&nbsp;
+        <a href="../Pages/Reservation.html">Reservation</a>&nbsp;&nbsp;
+    </nav>
+     <div id="reservationhero"></div>
+     <main>
+        <h2><a class="class1">Reservations</a></h2>
+        <p>To make a reservation, please fill out the form below:</p>
+        <form action="submit_reservation.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="checkin">Check-in Date:</label><br>
+            <input type="date" id="checkin" name="checkin" required><br>
+            
+            <label for="checkout">Check-out Date:</label><br>
+            <input type="date" id="checkout" name="checkout" required><br>
+            
+            <label for="cottagetype">Cottage Type:</label><br>
+            <select id="cottagetype" name="cottagetype" required>
+                <option value="standard">Standard</option>
+                <option value="deluxe">Deluxe</option>
+                <option value="premium">Premium</option>
+            </select><br>
+            
+            <input type="submit" value="Submit">
+        </form>  
+    <footer>
+            <em>
+                &copy;2024 Pacific Trails Resort. All Rights Reserved.<br>
+                <strong><a href="#">dummyemail@pacifictrails.com</a></strong>
+            </em>
+
+    </footer>  
+    </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.wrapper{
+    font-family: Helvetica;
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    background: #f3f3f3;
+    padding: 1rem;
+    margin: auto;
+    gap: 1rem;
+}
+
+input , button{
+    padding:1rem;
+    font-size: 18px;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
